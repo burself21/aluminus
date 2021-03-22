@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/aluminus/static/css/main.4cf4cb06.chunk.css",
-    "main.js": "/aluminus/static/js/main.24bd1dc7.chunk.js",
-    "main.js.map": "/aluminus/static/js/main.24bd1dc7.chunk.js.map",
+    "main.css": "/aluminus/static/css/main.555821c5.chunk.css",
+    "main.js": "/aluminus/static/js/main.cb05fd0a.chunk.js",
+    "main.js.map": "/aluminus/static/js/main.cb05fd0a.chunk.js.map",
     "runtime-main.js": "/aluminus/static/js/runtime-main.fd7ec9fe.js",
     "runtime-main.js.map": "/aluminus/static/js/runtime-main.fd7ec9fe.js.map",
-    "static/js/2.20044957.chunk.js": "/aluminus/static/js/2.20044957.chunk.js",
-    "static/js/2.20044957.chunk.js.map": "/aluminus/static/js/2.20044957.chunk.js.map",
+    "static/js/2.24e63dee.chunk.js": "/aluminus/static/js/2.24e63dee.chunk.js",
+    "static/js/2.24e63dee.chunk.js.map": "/aluminus/static/js/2.24e63dee.chunk.js.map",
     "index.html": "/aluminus/index.html",
-    "static/css/main.4cf4cb06.chunk.css.map": "/aluminus/static/css/main.4cf4cb06.chunk.css.map",
-    "static/js/2.20044957.chunk.js.LICENSE.txt": "/aluminus/static/js/2.20044957.chunk.js.LICENSE.txt",
+    "static/css/main.555821c5.chunk.css.map": "/aluminus/static/css/main.555821c5.chunk.css.map",
+    "static/js/2.24e63dee.chunk.js.LICENSE.txt": "/aluminus/static/js/2.24e63dee.chunk.js.LICENSE.txt",
+    "static/media/check.2298f650.svg": "/aluminus/static/media/check.2298f650.svg",
+    "static/media/check_green.9beb711a.svg": "/aluminus/static/media/check_green.9beb711a.svg",
     "static/media/students_img.0d21117a.png": "/aluminus/static/media/students_img.0d21117a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fd7ec9fe.js",
-    "static/js/2.20044957.chunk.js",
-    "static/css/main.4cf4cb06.chunk.css",
-    "static/js/main.24bd1dc7.chunk.js"
+    "static/js/2.24e63dee.chunk.js",
+    "static/css/main.555821c5.chunk.css",
+    "static/js/main.cb05fd0a.chunk.js"
   ]
 }
