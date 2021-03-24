@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aluminus/static/css/main.67cfdd89.chunk.css",
-    "main.js": "/aluminus/static/js/main.1c39aa6e.chunk.js",
-    "main.js.map": "/aluminus/static/js/main.1c39aa6e.chunk.js.map",
+    "main.css": "/aluminus/static/css/main.afa3458f.chunk.css",
+    "main.js": "/aluminus/static/js/main.0709b76b.chunk.js",
+    "main.js.map": "/aluminus/static/js/main.0709b76b.chunk.js.map",
     "runtime-main.js": "/aluminus/static/js/runtime-main.fd7ec9fe.js",
     "runtime-main.js.map": "/aluminus/static/js/runtime-main.fd7ec9fe.js.map",
-    "static/js/2.7a40aaa2.chunk.js": "/aluminus/static/js/2.7a40aaa2.chunk.js",
-    "static/js/2.7a40aaa2.chunk.js.map": "/aluminus/static/js/2.7a40aaa2.chunk.js.map",
+    "static/js/2.8e76b3f1.chunk.js": "/aluminus/static/js/2.8e76b3f1.chunk.js",
+    "static/js/2.8e76b3f1.chunk.js.map": "/aluminus/static/js/2.8e76b3f1.chunk.js.map",
     "index.html": "/aluminus/index.html",
-    "static/css/main.67cfdd89.chunk.css.map": "/aluminus/static/css/main.67cfdd89.chunk.css.map",
-    "static/js/2.7a40aaa2.chunk.js.LICENSE.txt": "/aluminus/static/js/2.7a40aaa2.chunk.js.LICENSE.txt",
+    "static/css/main.afa3458f.chunk.css.map": "/aluminus/static/css/main.afa3458f.chunk.css.map",
+    "static/js/2.8e76b3f1.chunk.js.LICENSE.txt": "/aluminus/static/js/2.8e76b3f1.chunk.js.LICENSE.txt",
     "static/media/arrow.99464f50.svg": "/aluminus/static/media/arrow.99464f50.svg",
     "static/media/check.2298f650.svg": "/aluminus/static/media/check.2298f650.svg",
     "static/media/check_green.9beb711a.svg": "/aluminus/static/media/check_green.9beb711a.svg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fd7ec9fe.js",
-    "static/js/2.7a40aaa2.chunk.js",
-    "static/css/main.67cfdd89.chunk.css",
-    "static/js/main.1c39aa6e.chunk.js"
+    "static/js/2.8e76b3f1.chunk.js",
+    "static/css/main.afa3458f.chunk.css",
+    "static/js/main.0709b76b.chunk.js"
   ]
 }
