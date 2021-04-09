@@ -1,0 +1,58 @@
+
+#header::before {
+
+    background-size: cover;
+    background-image: url(./icon.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 29px; 
+    height: 30px;
+    content:"";
+    margin-bottom: -2px;
+    margin-right: 2px;
+}
+
+#header, #form_header {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#header {
+    text-align: center;
+}
+
+#content {
+    position: relative;
+}
+
+#sign_up {
+    font-size: 13px;
+    text-align: right;
+    line-height: 32px;
+}
+
+#join_link {
+    color: #2484DC;
+    text-decoration: none;
+}
+
+#join_link:hover {
+    text-decoration: underline;
+}
+
+@media (min-width:320px) {
+
+}
+
+@media (min-width:1450px) {
+    #content {
+        width: 570px;
+        top: 60px;
+        margin-left: calc((100vw - 570px) / 2);
+    }
+
+    #header {
+        margin-bottom: 60px;
+    }
+
+}

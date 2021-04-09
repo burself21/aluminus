@@ -6,9 +6,9 @@
     }
     
     #content {
-        width: 55vw;
+        width: 70vw;
         position: relative;
-        left: 22.5vw;
+        left: 15vw;
     
     }
     
@@ -16,6 +16,7 @@
         font-weight: 500;
         margin-bottom: 12vh;
         text-align: center;
+        font-size: calc(1.666vw + 16px);
     }
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
@@ -25,7 +26,9 @@
 
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-
+    #header {
+        font-size: 32px;
+    }
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 

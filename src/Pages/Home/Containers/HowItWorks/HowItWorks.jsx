@@ -49,11 +49,11 @@ const HowItWorks = () => {
         <div className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.header_container}>
-                    <h2> Find, Fund, Stay Updated </h2>
+                    <h2> How Aluminus Works </h2>
                 </div>
 
                 <div id={styles.info_container}>
-                    {infoBox(student, "Find a Student", "We can recommend you students based on their needs and your preferences, or you can browse through to find them yourself.", classes)}
+                    {infoBox(student, "Find a Student", "Browse through students with financial need from your alma mater and find students you would like to lend your monthly support to.", classes)}
                     <img src={arrow} width="38" height="23" alt="arrow" />
                     {infoBox(funding, "Provide Funding", "Support a student with $5, $10, or more funds that you specify. The funds will go directly to the students’ university account at the beginning of each month.", classes)}
                     <img src={arrow} width="38" height="23" alt="arrow" />

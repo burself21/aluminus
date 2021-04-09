@@ -19,11 +19,19 @@ import Typography from '@material-ui/core/Typography';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import MailIcon from '@material-ui/icons/Mail';
 
+import { Link as RouterLink } from 'react-router-dom';
+
 import clsx from 'clsx';
 
 const useStyles = makeStyles(theme => ({
     grow: {
-        flexGrow: 1,
+        ["@media (min-width:320px)"]: {
+            width: "12vw"
+        },
+
+        ["@media (min-width:961px)"]: {
+            flexGrow: 1,
+        }
     },
 
     nav: {
@@ -34,23 +42,19 @@ const useStyles = makeStyles(theme => ({
     toolbar: {
         padding: 0,
 
+        ["@media (min-width:320px)"]: {
+            maxWidth: "75vw",
+            marginLeft: "18.5vw"
+        },
+
         ["@media (min-width:961px)"]: {
-            width: "75vw",
-            marginLeft: "3.2vw"
-        },
-
-        ["@media (min-width:1360px)"]: {
-            width: "1165px",
-            marginLeft: "calc(50.9vw - (1300px) / 2)"
-        },
-
-        ["@media (min-width:1400px)"]: {
-            marginLeft: "calc(52.3vw - (1300px) / 2)"
+            maxWidth: "78vw",
+            marginLeft: "11vw"
         },
 
         ["@media (min-width:1483px)"]: {
             width: "1165px",
-            marginLeft: "calc((100vw - 1160px) / 2)"
+            marginLeft: "calc((100vw - 1165px) / 2)"
         }
     },
 
@@ -81,30 +85,49 @@ const useStyles = makeStyles(theme => ({
     },
 
     title: {
-        display: 'none',
-        [theme.breakpoints.up('sm')]: {
-            display: 'block',
-            color: 'black',
-            fontWeight: 'bold',
-            fontSize: '24px',
-            '&:hover': {
-                textDecoration: 'none'
-            }
-              
+        
+        display: 'block',
+        color: 'black',
+        fontWeight: 'bold',
+        fontSize: '24px',
+        '&:hover': {
+            textDecoration: 'none'
         }
+
     },
 
     sectionDesktop: {
         display: 'none',
-        [theme.breakpoints.up('md')]: {
+        ["@media (min-width:961px)"]: {
             display: 'flex'
         }
     },
+
     sectionMobile: {
-        display: 'flex',
-        [theme.breakpoints.up('md')]: {
+        ['@media (min-width:320px)']: {
+            display: 'flex',
+            width: "5vw"
+        },
+
+        ['@media (min-width:961px)']: {
             display: 'none'
         }
+    },
+
+    mobile_menu: {
+        '& ul': {
+            padding: 0
+        }
+    },
+
+    more_icon: {
+
+        ['@media (min-width:320px)']: {
+            fontSize: "32px"
+        },
+        ['@media (min-width:600px)']: {
+            fontSize: "32px"
+        },
     }
 
 }));
@@ -134,13 +157,26 @@ const MyNav = () => {
             anchorEl={mobileMoreAnchorEl}
             anchorOrigin={{ vertical: 'top', horizontal: 'right'}}
             id='mobile-menu'
+            className={classes.mobile_menu}
             keepMounted
-            transformOrigin={{ vertical: 'top', horizontal: 'right'}}
+            transformOrigin={{ vertical: 'top', horizontal: 'center'}}
             open={isMobileMenuOpen}
             onClose={handleMobileMenuClose}
         >
+            <MenuItem button href="https://google.com" divider>
+                <Typography className={classes.mobile_menu_item}> Who we are </Typography>
+            </MenuItem>
+
+            <MenuItem divider>
+                <Typography className={classes.mobile_menu_item}> How it works </Typography>
+            </MenuItem>
+
+            <MenuItem divider>
+                <Typography className={classes.mobile_menu_item}> Contact Us </Typography>
+            </MenuItem>
+
             <MenuItem>
-                <Typography className={classes.mobileMenu}></Typography>
+                <Typography className={classes.mobileMenu}> Sign in/up</Typography>
             </MenuItem>
         </Menu>
 
@@ -174,8 +210,8 @@ const MyNav = () => {
                             </Link>
 
                         </Typography>
-                        <Button className={classes.nav_button}>Login</Button>
-                        <Button className={classes.nav_button}>Sign Up</Button>
+                        <Button component={ RouterLink } to="/login" className={classes.nav_button}>Login</Button>
+                        <Button component={ RouterLink } to="/signup" className={classes.nav_button}>Sign Up</Button>
                         {/*<IconButton aria-label="show 4 new mails" color="inherit">
                         <Badge badgeContent={4} color="secondary">
                             <MailIcon />
@@ -194,9 +230,9 @@ const MyNav = () => {
                         aria-controls='mobile-menu'
                         aria-haspopup="true"
                         onClick={handleMobileMenuOpen}
-                        color="inherit"
+                        color="primary"
                         >
-                        <MoreIcon />
+                        <MoreIcon className={classes.more_icon} />
                         </IconButton>
                     </div>
                 </ToolBar>
