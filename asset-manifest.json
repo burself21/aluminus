@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/aluminus/static/css/main.23d398a8.chunk.css",
-    "main.js": "/aluminus/static/js/main.7224bc60.chunk.js",
-    "main.js.map": "/aluminus/static/js/main.7224bc60.chunk.js.map",
+    "main.css": "/aluminus/static/css/main.f4e0cdf2.chunk.css",
+    "main.js": "/aluminus/static/js/main.5c0746b1.chunk.js",
+    "main.js.map": "/aluminus/static/js/main.5c0746b1.chunk.js.map",
     "runtime-main.js": "/aluminus/static/js/runtime-main.fd7ec9fe.js",
     "runtime-main.js.map": "/aluminus/static/js/runtime-main.fd7ec9fe.js.map",
     "static/js/2.6c991c49.chunk.js": "/aluminus/static/js/2.6c991c49.chunk.js",
     "static/js/2.6c991c49.chunk.js.map": "/aluminus/static/js/2.6c991c49.chunk.js.map",
     "index.html": "/aluminus/index.html",
-    "static/css/main.23d398a8.chunk.css.map": "/aluminus/static/css/main.23d398a8.chunk.css.map",
+    "static/css/main.f4e0cdf2.chunk.css.map": "/aluminus/static/css/main.f4e0cdf2.chunk.css.map",
     "static/js/2.6c991c49.chunk.js.LICENSE.txt": "/aluminus/static/js/2.6c991c49.chunk.js.LICENSE.txt",
     "static/media/arrow.99464f50.svg": "/aluminus/static/media/arrow.99464f50.svg",
     "static/media/funding.6f5c64ae.svg": "/aluminus/static/media/funding.6f5c64ae.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.fd7ec9fe.js",
     "static/js/2.6c991c49.chunk.js",
-    "static/css/main.23d398a8.chunk.css",
-    "static/js/main.7224bc60.chunk.js"
+    "static/css/main.f4e0cdf2.chunk.css",
+    "static/js/main.5c0746b1.chunk.js"
   ]
 }
